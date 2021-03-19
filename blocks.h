@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	
 	{ " ", "~.scripts/pkgcheck.sh", 7200, 0 },
-	{ "", "~/.scripts/time.sh", 5, 0},
+	{ "", "~/.scripts/time.sh", 30, 0},
 };
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
 static char delim[] = " | ";
